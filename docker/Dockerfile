@@ -1,4 +1,4 @@
-FROM tensorflow/tensorflow:latest-gpu-jupyter
+FROM tensorflow/tensorflow:2.8.0-gpu-jupyter
 
 RUN apt-get -y update && apt-get install -y \
     git \
