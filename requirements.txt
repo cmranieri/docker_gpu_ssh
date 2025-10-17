@@ -1,0 +1,12 @@
+tensorflow-gpu
+opencv-python==4.5.5.62
+opencv-contrib-python==4.5.5.62
+matplotlib==3.4.3
+pandas==1.4.1
+seaborn==0.11.2
+scikit-learn==1.0.2
+scikit-image==0.19.1
+pyyaml==6.0
+statannot==0.2.3
+statsmodels==0.13.5
+pingouin==0.5.3
