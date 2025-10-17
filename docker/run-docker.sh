@@ -9,5 +9,5 @@ docker run --gpus all \
 	    --rm \
         -u $(id -u):$(id -g) \
 	    -v ${PWD}/:/workspace \
-	    my-th \
+	    my-tf \
 	    bash

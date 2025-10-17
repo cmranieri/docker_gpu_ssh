@@ -1,8 +1,8 @@
-FROM tensorflow/tensorflow:2.8.0-gpu-jupyter
+FROM tensorflow/tensorflow:2.11.0-gpu-jupyter
 
-RUN apt-get -y update && apt-get install -y \
-    git \
-    vim
+RUN apt-get -y update &&\ 
+	apt-get install -y vim &&\
+	pip install --upgrade pip
 
 COPY requirements.txt /tmp/
 RUN pip install -r /tmp/requirements.txt
